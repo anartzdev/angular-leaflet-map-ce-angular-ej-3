@@ -1,0 +1,13 @@
+<p>
+  Draw route using markers and polylines. Remove markers to better use
+  experience.
+</p>
+
+<hr />
+
+<ng-leaflet-map
+  [mapId]="'draw__route__map'"
+  [config]="config"
+  [markers]="markers"
+  *ngIf="markers.length > 100"
+></ng-leaflet-map>
