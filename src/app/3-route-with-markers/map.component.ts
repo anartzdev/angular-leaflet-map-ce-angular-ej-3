@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IConfigMap, IMarker } from '@mugan86/ng-leaflet';
 import gpxParser from 'gpxparser';
 
